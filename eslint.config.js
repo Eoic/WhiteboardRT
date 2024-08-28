@@ -22,7 +22,7 @@ export default tseslint.config(
             'eol-last': ['error', 'always'],
             'comma-dangle': ["error", {
                 "arrays": "never",
-                "objects": "always",
+                "objects": "always-multiline",
                 "imports": "never",
                 "exports": "never",
                 "functions": "never"

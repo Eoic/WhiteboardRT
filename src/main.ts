@@ -1,3 +1,4 @@
 import '../styles/main.scss';
+import { Scene } from './components/scene/scene';
 
-console.log('It works!');
+new Scene();
